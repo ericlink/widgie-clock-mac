@@ -34,7 +34,6 @@ struct ClockFaceView: View {
             .padding(0.5)
         }
         .frame(width: 130, height: 130)
-        .drawingGroup()
     }
 
     private var ticks: some View {
